@@ -14,8 +14,8 @@
         <h1 class="text-center"><span class="text-danger">Calculate </span> number</h1>
 <!-- ----------------------------------------------- -->
         <div class="container text-center card text-bg-dark " style="width: 20rem;">
-            <input type="text" class="m-2 p-2 rounded">
-            <div class="card-body row row-cols- row-cols-md-5 g-2 column-gap-2 m-2">
+            <input id="input-fields" type="text" class="m-2 p-2 rounded">
+            <div id="calculator" class="card-body row row-cols- row-cols-md-5 g-2 column-gap-2 m-2">
                 <div id="refresh" type="button" class="btn btn-secondary col me-1">AC</div>
                 <div id="pi_pi" type="button" class="btn btn-secondary col ms-1">pi</div>
                 <div id="percent" type="button" class="btn btn-secondary col ms-1"><i class="fa-light fa-percent"></i></div>
@@ -34,7 +34,7 @@
                 <div id="plus" type="button" class="btn btn-secondary col ms-1"><i class="fa-light fa-plus"></i></div>
                 <div id="gero" type="button" class="btn btn-secondary col ms-1">0</div>
                 <div id="dot" type="button" class="btn btn-secondary col ms-1">.</div>
-                <div id="equal" type="button" class="btn btn-light    col ms-1"><i class="fa-regular fa-equals"></i></div>
+                <div id="equal" onclick="multiple_pi()" type="button" class="btn btn-light    col ms-1"><i class="fa-regular fa-equals"></i></div>
                 <div id="minus" type="button" class="btn btn-secondary col ms-1"><i class="fa-solid fa-minus"></i></i></div>
 
                 <!--  -->
