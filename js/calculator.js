@@ -28,6 +28,16 @@ document.getElementById('calculator').addEventListener('click', function(event){
         inputField.value = num;
     };
 });
+// const refresh = () =>{
+//     const refreshBtn = event.target.innerText;
+//     const inputField = document.getElementById('input-fields');
+//     const fieldValue = inputField.value;
+//     if(isNaN(refreshBtn)){
+//         if(refreshBtn === 'AC'){
+//             inputField.value = '';
+//         };
+//     }
+// };
 
 // const multiple_pi =()=>{
 
